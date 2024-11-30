@@ -1,0 +1,35 @@
+
+  
+  .topbar {
+    margin-bottom: 20px;
+    padding: 0px 50px;
+  }
+
+  .filters .dropdown .dropdown-toggle {
+    font-weight: 500;
+    background-color: #343a40; /* Dark color */
+    color: #e9ecef; /* Light text */
+    width: 200px; /* Fixed width for all filter buttons */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .apply-button {
+    font-weight: bold;
+    width: 200px; /* Fixed width for all filter buttons */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .filters .dropdown {
+    display: inline-block;
+  }
+  
+  .filters .dropdown .dropdown-toggle {
+    font-weight: 500;
+    background-color: #343a40; /* Dark color */
+    color: #e9ecef; /* Light text */
+  }
+  
+  .filters .dropdown-menu {
+    border-radius: 0.25rem;
+  }
+  

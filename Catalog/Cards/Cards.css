@@ -1,0 +1,40 @@
+/* src/components/Catalog/Cards.css */
+
+.container-fluid {
+    max-width: 1500px; /* Limit the container width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px;
+    margin-bottom: 25px;
+}
+
+.row-cols-md-3 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px; /* Default gap */
+    justify-content: center; /* Center cards within the container */
+}
+
+.col {
+    flex: 0 0 300px !important; /* Set a fixed width for each card */
+    max-width: 300px !important;
+    min-height: 480px; /* Minimum height to keep cards aligned */
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure card stretches to same height */
+}
+
+.catalog-card .card-body {
+    flex-grow: 1; /* Fill remaining space in the card body */
+}
+
+.catalog-card:last-child {
+    margin-bottom: 0;
+}
+.no-results {
+    margin-bottom: 350px;
+}

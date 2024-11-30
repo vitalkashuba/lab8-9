@@ -1,0 +1,30 @@
+.item-page {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .item-page img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .item-page h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .item-page .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-success {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .display-5 {
+    font-weight: bold !important;
+  }
+  

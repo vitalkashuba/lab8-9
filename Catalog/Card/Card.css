@@ -1,0 +1,53 @@
+/* src/components/Catalog/Card.css */
+
+.catalog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #444;
+    width: 360px;
+    height: 100%; /* Ensures card stretches to the same height */
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.catalog-card-img {
+    height: 350px; /* Adjust for square dimensions */
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-body {
+    flex: 1; /* Ensures body stretches to fill remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.catalog-text {
+    font-size: 1rem;
+    color: #d4d4d4 !important;
+}
+
+.price {
+    color: #28a745 !important;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    font-weight: bold;
+    border-color: #d4d4d4 !important;
+    border: 10px !important;
+
+}
+
+
